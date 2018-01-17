@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Release5" parallel="instances" verbose="1" thread-count="5">
+    <test name="Regression">
+        <classes>
+            <class name="com.example.supercrunch.tests.WebTestFactory"/>
+        </classes>
+    </test>
+</suite>
